@@ -1,14 +1,43 @@
 /*.gallery {
 	margin: 10px 50px;
-}*/
-
+}
+*/
 .gallery img {
 	transition: 1s;
-/*	padding: 15px;
-/**/	width: 200px;
-*/}
+	padding: 15px;
+	/*width: 200px;*/
+}
 
 .gallery img:hover {
 	filter: grayscale(100%);
 	transform: scale(1.1);
+}
+
+.page-top {
+	background-color: lightgray;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	background-image: url("https://www.seekpng.com/png/full/943-9438072_we-are-a-start-up-your-design-here.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: right;
+}
+
+.display-4 {
+	background-color: red;
+	color: white;
+	width: 65%;
+}
+.lead {
+	background-color: black;
+	color: white;
+	width: 35%;
+}
+
+.service_sub {
+	padding: 20px;
+	background-color: lightgray;
+
 }
