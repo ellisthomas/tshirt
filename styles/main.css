@@ -1,43 +1,106 @@
 /*.gallery {
-	margin: 10px 50px;
+  margin: 10px 50px;
 }
 */
 .gallery img {
-	transition: 1s;
-	padding: 15px;
-	/*width: 200px;*/
+  transition: 1s;
+  padding: 15px;
+  /*width: 200px;*/
 }
 
 .gallery img:hover {
-	filter: grayscale(100%);
-	transform: scale(1.1);
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
 
 .page-top {
-	background-color: lightgray;
-	margin-top: 30px;
+  background-color: lightgray;
+  margin-top: 30px;
 }
 
-.jumbotron {
-	background-image: url("https://www.seekpng.com/png/full/943-9438072_we-are-a-start-up-your-design-here.png");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: right;
+
+
+/* Header
+==================================================*/
+nav {
+  text-align: center;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  height: 65px;
+  background-color: #f3f3f3; 
 }
 
-.display-4 {
-	background-color: red;
-	color: white;
-	width: 65%;
-}
-.lead {
-	background-color: black;
-	color: white;
-	width: 35%;
+nav ul {
+  display: inline-block;
+  padding-left: 0;
+  list-style: none;
+  padding: 20px;
+  margin-bottom: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s; 
 }
 
-.service_sub {
-	padding: 20px;
-	background-color: lightgray;
-
+nav li {
+  display: inline-block;
+  margin: 10px; 
 }
+
+nav li a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #444;
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+.bg-nav {
+  background: #d3d3d3;
+  border-bottom: 1px solid #f3f3f3; 
+}
+
+.bg-nav ul {
+  padding: 10px; 
+}
+
+a:focus {
+  color: #444;
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #425BB5;
+  text-decoration: none; 
+}
+
+a.active {
+  color: #425BB5; 
+}
+
+/* home section
+==================================================*/
+#home {
+  padding: 100px;
+  background: #ffffff;
+}
+
+/* designs section
+==================================================*/
+#designs {
+  padding: 100px;
+  background: #f3f3f3;
+}
+
+/* services section
+==================================================*/
+#services {
+  padding: 100px;
+  background: #ffffff;
+}
+
+/* contact section
+==================================================*/
+#contact {
+  padding: 100px;
+  background: #f3f3f3;
+}
+
