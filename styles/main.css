@@ -80,7 +80,8 @@ a.active {
 ==================================================*/
 #home {
   padding: 100px;
-  background: #ffffff;
+  background-image: url("https://www.pexels.com/photo/home-interior-with-garments-on-racks-6347888/");
+ 
 }
 
 /* designs section
@@ -99,18 +100,20 @@ a.active {
 
 /* contact section
 ==================================================*/
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+}
+
 #contact {
   padding: 100px;
   background: #f3f3f3;
-  
+
 }
 
-form  {
-   margin-left:auto;
-   margin-right:auto;
-   margin-top: 50px;
-   width:200px;
-   background: #f3f3f3;
-}
+
+
+
 
 
